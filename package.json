@@ -1,10 +1,15 @@
 {
-  "name": "node",
+  "name": "test",
   "version": "1.0.0",
-  "description": "Testing Azure Stuff",
+  "description": "Testing WebApp",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAllsop/AzureTest.git"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +18,6 @@
   },
   "homepage": "https://github.com/JAllsop/AzureTest#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "4.17.1"
   }
 }
