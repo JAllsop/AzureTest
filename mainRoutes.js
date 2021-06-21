@@ -1,10 +1,12 @@
+'use strict'
+
 const path = require('path')
 const express = require('express')
 const mainRouter = express.Router()
 
-mainRouter.get('/', function (req, res) {
-  res.send('Hello World, I\'m Node.js')
-})
+// mainRouter.get('/', function (req, res) {
+//   res.sendFile(path.join(__dirname, 'views', 'class', 'index.html'))
+// })
 
 mainRouter.get('/about', function (req, res) {
   res.sendFile(path.join(__dirname, 'views', 'about.html'))
