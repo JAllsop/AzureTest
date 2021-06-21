@@ -1,5 +1,11 @@
 /* eslint-env jest */
-const filterByTerm = require('../src/filterByTerm')
+function filterByTerm (inputArr, searchTerm) {
+  if (!searchTerm) throw Error('searchTerm cannot be empty')
+  const regex = new RegExp(searchTerm, 'i')
+  return inputArr.filter(function (arrayElement) {
+    return arrayElement.url.match(regex)
+  })
+}
 
 describe('Filter function', () => {
   const input = [
