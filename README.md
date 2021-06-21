@@ -1,2 +1,0 @@
-# AzureTest
-Testing WebApp
