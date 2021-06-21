@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Class List</title>
+    <meta charset="utf-8" />
+    <script src="/cdn/scripts/class/index.js"></script>
+</head>
+
+<body>
+    <h1>Students in the School of EIE:</h1>
+    <input type="text" id="search-text" placeholder="Search" value=""> <label for="type">Filter:</label>
+
+    <select name="studentAttributes" id="categories">
+        <option value="Name">Name</option>
+        <option value="Number">Student Number</option>
+    </select>
+
+    <ol id="classList">
+    </ol>
+    <b>Add a new student</b>
+    <div>
+        <input type="text" id="newStudentName" placeholder="Student Name">
+        <input type="text" id="newStudentNumber" placeholder="Student Number">
+        <button type="button" id="addStudentButton">Add Student</button>
+    </div>
+
+</body>
+
+</html>
