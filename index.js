@@ -13,7 +13,6 @@ will be at /cdn/scripts */
 // only for html??? and browser viewing
 
 // loading our routers
-// const mainRouter = require('./mainRoutes.js')
 const classRouter = require('./classRoutes.js')
 
 // tell Express to use bodyParser for JSON and URL encoded form bodies
